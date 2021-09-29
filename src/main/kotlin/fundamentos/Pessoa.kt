@@ -1,9 +1,9 @@
 package fundamentos
 
 class Pessoa( var nome: String, var idade: Int, var signo: String) {
-// todos os objetos chama esse to string
+// todos os objetos chama esse tostring para printar
     override fun toString(): String {
-        return super.toString()
+        return "Classe: Pessoa, Nome: ${nome}, Idade: ${idade}, Signo: ${signo}"
     }
 }
 
