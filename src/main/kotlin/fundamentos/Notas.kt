@@ -31,6 +31,34 @@ val e = 2.7182818284 // Double
 val eFloat = 2.7182818284f // Float, actual value is 2.7182817
 
 
+All number types support conversions to other types:
+
+transferir de um numero para outro
+toByte(): Byte
+toShort(): Short
+toInt(): Int
+toLong(): Long
+toFloat(): Float
+toDouble(): Double
+toChar(): Char
+
+Char = '1'
+val aChar: Char = 'a'
+
+string
+val str = "abcd 123"
+
+
+Arrays
+class Array<T> private constructor() {
+    val size: Int
+    operator fun get(index: Int): T
+    operator fun set(index: Int, value: T): Unit
+
+    operator fun iterator(): Iterator<T>
+    // ...
+}
+
 */
 
 
