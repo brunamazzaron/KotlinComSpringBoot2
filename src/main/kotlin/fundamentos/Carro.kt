@@ -12,9 +12,10 @@ fun main(){
     println(carro.cor)
     println(carro.anoDeFabricacao)
     println(carro.proprietario)
-    println()
+    println("----------------------------------")
     carro.cor = "Preto"
     carro.anoDeFabricacao = 2021
     println(carro.cor)
     println(carro.anoDeFabricacao)
 }
+//acessando atraves dos pontos
