@@ -2,11 +2,11 @@ package fundamentos
 
 fun main(){
     var nome = "Bruna"
-    val nomeVal = "Bruna"
+    //val nomeVal = "Bruna"
     nome  = "Vinicius"
     val idade = 28
     println(nome)
-    println(nomeVal)
+    //println(nomeVal)
     println(idade)
 }
 
